@@ -7,4 +7,60 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.background{
+  width: 100vw;
+  height: 20vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  padding: 100px;
+  height: 25vw;
+}
+
+#details{
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  margin-left: 40px;
+  padding: 15px;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text{
+  
+  width: 30rem;
+  /* border: 2px solid red; */
+  height: 20rem;
+  background-image: url("/Users/henriquemorikawa/Desktop/Ironhack/week3/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 0 0 50px;
+  margin-top: 15px;
+}
+
+h1{
+  width: 21rem;
+  color: #3A6890;
+}
+
+footer{
+  display: flex;
+  width: 40rem;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 100px;
+  border: 2px solid red;
 }
